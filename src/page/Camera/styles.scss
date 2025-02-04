@@ -1,0 +1,50 @@
+@import '../../config/scss/variables';
+
+.sx-camera {
+
+    background-color: #1D1D1D;
+    .sx-bg-card {
+        background-color: rgba($color: #353535, $alpha: 0.5);
+    }
+    // .p-datatable .p-datatable-thead > tr > th, .p-datatable .p-datatable-tbody > tr, .p-datatable .p-datatable-header, .p-datatable .p-paginator, .p-tabview .p-tabview-nav {
+    //     background: #353535;
+    // }
+    // .p-tabview-panels {
+    //     padding: 0;
+    // }
+    // .p-galleria .p-galleria-thumbnail-container {
+    //     background: transparent;
+    // }
+    // .p-galleria-thumbnail-item-content {
+    //     width: 100%;
+    // }
+    // .sx-weather-item {
+    //     background-color: rgba($color: #353535, $alpha: 0.5);
+    // }
+    // .sx-location {
+    //     background-color: rgba($color: #353535, $alpha: 0.5);
+    // }
+    // .sx-weather-right {
+    //     background-color: rgba($color: #353535, $alpha: 0.5);
+    // }
+    // .sx-weather-right-box {
+    //     background-color: #1D1D1D;
+    // }
+    // .sx-earch {
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-image: url(https://pngimg.com/d/world_map_PNG31.png);
+    // }
+    .p-panelmenu .p-panelmenu-header:not(.p-disabled).p-highlight .p-panelmenu-header-content, .p-panelmenu .p-panelmenu-content, .p-panelmenu .p-panelmenu-header .p-panelmenu-header-content {
+        background-color: transparent;
+    }
+    .p-panelmenu .p-panelmenu-header .p-panelmenu-header-content, .p-panelmenu .p-panelmenu-content {
+        border: none;
+    }
+    .p-panelmenu .p-panelmenu-content .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+        background-color: #4c4c4c;
+    }
+    .p-panelmenu .p-panelmenu-content .p-menuitem:not(.p-highlight):not(.p-disabled).p-focus > .p-menuitem-content {
+        background-color: #4c4c4c;
+    }
+}

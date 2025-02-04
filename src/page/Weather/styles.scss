@@ -1,0 +1,31 @@
+@import '../../config/scss/variables';
+
+.sx-weather {
+    background-color: #1D1D1D;
+    .sx-celsius-container {
+        background-color: rgba($color: #353535, $alpha: 0.5);
+    }
+    .p-galleria .p-galleria-thumbnail-container {
+        background: transparent;
+    }
+    .p-galleria-thumbnail-item-content {
+        width: 100%;
+    }
+    .sx-weather-item {
+        background-color: rgba($color: #353535, $alpha: 0.5);
+    }
+    .sx-location {
+        background-color: rgba($color: #353535, $alpha: 0.5);
+    }
+    .sx-weather-right {
+        background-color: rgba($color: #353535, $alpha: 0.5);
+    }
+    .sx-weather-right-box {
+        background-color: #1D1D1D;
+    }
+    .sx-earch {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://pngimg.com/d/world_map_PNG31.png);
+    }
+}
